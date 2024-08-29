@@ -1,0 +1,5 @@
+Field, Data type, NaN value, Description, Note
+id, int64, 0, Key primary - Id of a warehouse, none
+name, object, 0, Name of a warehouse, none
+lat, float64, 0, Lattitude of a warehouse, none
+long, float64, 0, Longtitude of a warehouse, none

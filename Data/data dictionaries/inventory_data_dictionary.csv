@@ -1,0 +1,5 @@
+Field, Data type, NaN value, Description, Note
+id, int64, 0, Key primary - id of a inventory in SKU unit, none
+item_id, int64, 0, Id of a product, none
+created_at, datetime64[ns], 0, Time a product is stored at warehouse, none
+sold_at, datetime64[ns], 306949, Time a product sold out, The number of NaN value in that field indicates that the Inventory Turnover may be slow

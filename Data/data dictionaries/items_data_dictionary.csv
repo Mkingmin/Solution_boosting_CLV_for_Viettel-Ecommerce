@@ -1,0 +1,8 @@
+Field, Data type, NaN value, Description, Note
+id, int64, 0, Key primary - id of a product, none
+cost, float64, 0, Cost of a product, none
+category, object, 0, Category name of a product, none
+brand, object, 24, Brand name of a product, NaN value doesn't affect to the result
+retail_price, float64, 0, Retail price of a product, none
+department, object, 0, Indicating the target gender that product aims at, none
+fulfillment_id, int64, 0, Id of warehouse, none

@@ -1,0 +1,12 @@
+Field, Data type, NaN value, Description, Note
+id, int64, 0, Key primary - id of a customer, none
+age, int64, 0, Age of a customer, none
+sex, object, 0, Gender of a customer, none
+state, object, 0, State where a customer living in, none
+postal, object, 0, Postal code of the state that customer living in, none
+city, object, 962, City where a customer lives in, none
+country, object, 0, Country of a customer, none
+lat, float64, 0, Latitiude where a customer lives, none
+long, float64, 0, Longtitude where a customer lives, none
+traffic_src, object, 0, First source of traffic that leads customers to website, none
+created_at, datetime64[ns], 0, Time that a customer creates an account, none

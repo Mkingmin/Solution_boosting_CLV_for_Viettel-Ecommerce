@@ -1,0 +1,10 @@
+Field, Data type, NaN value, Description, Note
+order_id, int64, 0, Primary Key - Id of an order, none
+cus_id, int64, 0, Id of a customer using for identify customer, none
+status, object, 0, The status of an order, none
+sex, object, 0, Gender of a customer, none
+created_at, datetime64[ns], 0, Time that customer conducts an order, none
+returned_at, datetime64[ns], 112353, Time that order is returned to retailers, The high frequency of NaN values in this variable suggests that the status of returned orders specifically whether they have arrived at the retailer's location is unknown or missing
+shipped_at, datetime64[ns], 43671, Time that order is shipped to customer, If over 40000 NaN value indicate shipped orders they will affect to the accuracy of analysis
+delivered_at, datetime64[ns], 81325, Time that order is successfully deliverd and paid, If over 80000 NaN value indicate deliverd orders they will affect to the accuracy of analysis
+num_of_item, int64, 0, The number of products that a customer purchases, none

@@ -1,0 +1,14 @@
+Field, Data type, NaN value, Description, Note
+id, int64, 0, Key primary - id of an event on website, none
+cus_id, float64, 1124065, Id of a customer, A lot of NaN value in that field indicates that there may be a problem of conversion
+sequence_number, int64, 0, The sequence of envent in a session, none
+session_id, object, 0, Id of a session, none
+created_at, datetime64[ns], 0, Time that session is created, none
+ip, object, 0, Ip address, none
+city, object, 23958, City of ip address, none
+state, object, 0, State of ip address, none
+postal, object, 0, Postal code of the state that customer living in, none
+browser, object, 0, Name of browser that customers use, none
+traffic_src, object, 0, First source of traffic that leads customers to website, none
+path, object, 0, URI link, none
+event_type, object, 0, Type of actions that customer make on website, none
