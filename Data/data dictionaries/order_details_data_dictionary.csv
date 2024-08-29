@@ -1,0 +1,6 @@
+Field, Data type, NaN value, Description, Note
+id, int64, 0, Key primary, none
+order_id, int64, 0, Id of an order, none
+item_id, int64, 0, Id of a product, none
+inventory, int64, 0, Id of inventory which indicates each SKU, none
+sale_price, float64, 0, Retail price of a product, none
