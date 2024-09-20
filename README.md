@@ -1,5 +1,5 @@
 # Preface
-The analyses presented in this repository are based on a hypothetical dataset provided by Viettel. The primary goal is to practice problem-solving skills through data analysis. The techniques employed in this analysis include Exploratory Data Analysis (EDA), Cohort analysis, and the Apriori algorithm
+The analyses presented in this repository are based on a hypothetical dataset provided by Viettel. The primary goal is to practice problem-solving skills through data analysis. The techniques were employed in this analysis include Exploratory Data Analysis (EDA), Cohort analysis, and the Apriori algorithm.
 # Executive summary
 The company is grappling with a low Customer Lifetime Value (CLV) compared to the E-commerce industry average, primarily due to a limited product catalog, restricted cross-selling capabilities, and subpar product quality in previous transactions. To address these underlying issues, conducting a market basket analysis to identify itemsets with high co-purchasing probabilities is the most effective solution, enabling the company to enhance the quality of its product recommendation features.
 # Problem analysis and Hypothesis development
